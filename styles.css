@@ -1,0 +1,147 @@
+*{
+  margin: 0px;
+  /* border: 3px solid purple; */
+}
+div{
+  /* border: 2px solid red; */
+  background-image: url(images/image-header.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  /* font-size: 3.5em; */
+  color: white;
+}
+.sunny-header{
+text-align: left;
+font-size: 2em;
+}
+.header-nav{
+text-align: right;
+color: white;
+padding-right: 5px;
+font-size: 0.27em;
+}
+.headercontent{
+text-align: center;
+margin-block-start: -0px;
+font-size: 3em;
+}
+img.arrow{
+  /* display: inline-flex;
+  float: center;  */
+ /* margin-left: 40%; */
+ margin-right: 50%;
+ justify-self: center;
+ margin-bottom: 50%
+
+}
+a{
+  text-decoration: none;
+  /* font-size: 20%; */
+}
+.egg{
+  /* border: 2px solid green; */
+  margin-block-start: -7%
+}
+.article-header{
+  font-size: 2em;
+  /* text-align: center; */
+}
+.learn-more{
+  text-decoration: 20% underline pink;
+  /* text-align: center; */
+}
+.apple{
+  background-image: url(images/image-graphic-design.jpg) ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  text-align: center;
+}
+.orange{
+  background-image: url(images/image-photography.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  text-align: center;
+}
+.content2-header{
+  text-align: center;
+  font-size: 1.5em;
+}
+.emily{
+  margin-left: 40%;
+  border-radius: 50%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+.emily-comment{
+  text-align: center;  
+  font-size: 1em;
+}
+.emily-R{
+  font-size: 2em;
+  text-align: center;
+}
+.thomas{
+  margin-left: 40%;
+  border-radius: 50%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+.thomas-comment{
+  text-align: center;
+  font-size: 1em;
+}
+.thomas-S{
+  font-size: 2em;
+  text-align: center;
+}
+.jennie{
+  margin-left: 40%;
+  border-radius: 50%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+.jennie-comment{
+  text-align: center;
+  font-size: 1em;
+}
+.jennie-F{
+  font-size: 2em;
+  text-align: center;
+}
+.post{
+  text-align: center;
+}
+.commentators{
+  /* border: 3px solid green; */
+}
+.bottom-image{
+ display: inline-grid;
+ grid-gap: none;
+ grid-template-columns:repeat(2,1fr);
+ grid-template-rows: repeat(2,1fr);
+}
+.sunnyside-footer-container{
+background-color:aquamarine;
+margin-top: 0px;
+color: green;
+}
+.sunnyside-footer{
+  font-size: 2em;
+  text-align: center;
+}
+.sunnyside-nav{
+  display: flex;
+  justify-content: center;
+  justify-content:space-evenly;
+  text-decoration: none;
+ text-align: center;
+ color: green;
+ font-size: 0.em;
+}
+.footer-icons{
+ display:flex;
+ justify-content: space-evenly;
+}
