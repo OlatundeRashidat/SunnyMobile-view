@@ -1,55 +1,59 @@
 *{
   margin: 0px;
-  /* border: 3px solid purple; */
 }
-div{
+.sunny-background{
   /* border: 2px solid red; */
   background-image: url(images/image-header.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  /* font-size: 3.5em; */
   color: white;
+  /* border: 2px solid green; */
+  text-align: center;
 }
 .sunny-header{
 text-align: left;
 font-size: 2em;
 }
 .header-nav{
-text-align: right;
+/* text-align: right; */
 color: white;
 padding-right: 5px;
 font-size: 0.27em;
+/* border: 2px solid red; */
 }
 .headercontent{
 text-align: center;
-margin-block-start: -0px;
-font-size: 3em;
-}
-img.arrow{
-  /* display: inline-flex;
-  float: center;  */
- /* margin-left: 40%; */
- margin-right: 50%;
- justify-self: center;
- margin-bottom: 50%
-
+/* margin-block-start: -0px; */
+font-size: 3rem;
 }
 a{
   text-decoration: none;
   /* font-size: 20%; */
 }
-.egg{
-  /* border: 2px solid green; */
-  margin-block-start: -7%
-}
+
 .article-header{
-  font-size: 2em;
-  /* text-align: center; */
+  font-size: 1rem;
+  font-weight: bolder;
+  text-align: center;
+  margin: 2rem auto;
+  font-size: 2.5rem;
+}
+.transform-content{
+  line-height: 1.5rem;
+  margin: 2rem 0;
+  text-align: center;
+}
+.stand-out-content{
+  line-height: 1.5rem;
+  margin: 2rem 0;
+  text-align: center;
 }
 .learn-more{
   text-decoration: 20% underline pink;
-  /* text-align: center; */
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 2rem;
 }
 .apple{
   background-image: url(images/image-graphic-design.jpg) ;
@@ -57,6 +61,15 @@ a{
   background-repeat: no-repeat;
   background-size: 100% 100%;
   text-align: center;
+  min-height: 27rem;
+}
+.apple-content{
+  padding-top: 15rem;
+  margin: 0px 3px;
+}
+.apple-text{
+  line-height: 1.5rem;
+  padding-bottom: 2rem;
 }
 .orange{
   background-image: url(images/image-photography.jpg);
@@ -64,84 +77,111 @@ a{
   background-repeat: no-repeat;
   background-size: 100% 100%;
   text-align: center;
+  min-height: 27rem;
+}
+.orange-content{
+  padding-top: 15rem;
+  margin: 0px 3px;
+}
+.orange-content{
+  line-height: 1.5rem;
+  padding-bottom: 2rem;
 }
 .content2-header{
   text-align: center;
   font-size: 1.5em;
 }
 .emily{
-  margin-left: 40%;
-  border-radius: 50%;
+  border-radius: 100%;
   padding-top: 10%;
   padding-bottom: 10%;
 }
 .emily-comment{
   text-align: center;  
   font-size: 1em;
+  line-height: 1.5rem;
+  padding-bottom: 2rem;
 }
 .emily-R{
   font-size: 2em;
   text-align: center;
+  padding-bottom: 1rem;
 }
-.thomas{
-  margin-left: 40%;
-  border-radius: 50%;
+  .thomas{
+  border-radius: 100%;
   padding-top: 10%;
   padding-bottom: 10%;
 }
 .thomas-comment{
   text-align: center;
   font-size: 1em;
+  line-height: 1.5rem;
+  padding-bottom: 2rem;
 }
 .thomas-S{
   font-size: 2em;
   text-align: center;
+  padding-bottom: 1rem;
 }
 .jennie{
-  margin-left: 40%;
-  border-radius: 50%;
+  border-radius: 100%;
   padding-top: 10%;
   padding-bottom: 10%;
 }
 .jennie-comment{
-  text-align: center;
+  text-align: center;  
   font-size: 1em;
+  line-height: 1.5rem;
+  padding-bottom: 2rem;
 }
 .jennie-F{
   font-size: 2em;
   text-align: center;
-}
+  padding-bottom: 1rem;
+} 
 .post{
   text-align: center;
 }
 .commentators{
-  /* border: 3px solid green; */
+ text-align: center;
 }
 .bottom-image{
- display: inline-grid;
- grid-gap: none;
- grid-template-columns:repeat(2,1fr);
- grid-template-rows: repeat(2,1fr);
+ display: flex;
+ flex-wrap:wrap;
+ margin-top: 5rem;
+}
+.milkbottle-orange{
+  display: flex;
+}
+.cone-sugar{
+  display: flex;
 }
 .sunnyside-footer-container{
 background-color:aquamarine;
 margin-top: 0px;
 color: green;
+text-align: center;
 }
 .sunnyside-footer{
   font-size: 2em;
-  text-align: center;
+  padding: 3rem 2rem;
 }
 .sunnyside-nav{
   display: flex;
   justify-content: center;
-  justify-content:space-evenly;
   text-decoration: none;
- text-align: center;
- color: green;
- font-size: 0.em;
+  color: green;
+  font-size: 0.em;
+}
+.services{
+  padding: 0px 2rem;
 }
 .footer-icons{
- display:flex;
- justify-content: space-evenly;
+ padding: 5rem 2rem;
+}
+.twitter{
+  padding-right:2rem;
+}
+.instagram{
+  padding: 0px 2rem;
 }
